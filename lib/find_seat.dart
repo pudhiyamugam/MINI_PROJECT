@@ -8,6 +8,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,13 +21,15 @@ class MyApp extends StatelessWidget {
 }
 
 class SearchExcelScreen extends StatefulWidget {
+  const SearchExcelScreen({super.key});
+
   @override
   _SearchExcelScreenState createState() => _SearchExcelScreenState();
 }
 
 class _SearchExcelScreenState extends State<SearchExcelScreen> {
   String _searchQuery = "";
-  List<Map<String, dynamic>> _searchResults = [];
+  final List<Map<String, dynamic>> _searchResults = [];
   bool _showImages = false;
   
   final List<Map<String, String>> imageData = [
@@ -160,10 +164,10 @@ class _SearchExcelScreenState extends State<SearchExcelScreen> {
                         width: double.infinity,
                         child: ElevatedButton(
                           onPressed: _searchInExcel,
-                          child: Text("Find My Exam Hall"),
                           style: ElevatedButton.styleFrom(
                             padding: EdgeInsets.symmetric(vertical: 16),
                           ),
+                          child: Text("Find My Exam Hall"),
                         ),
                       ),
                     ],
@@ -331,11 +335,11 @@ class _SearchExcelScreenState extends State<SearchExcelScreen> {
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: _launchMap,
-                  child: Text("GEC PATH"),
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.symmetric(horizontal: 32, vertical: 16),
                     textStyle: TextStyle(fontSize: 18),
                   ),
+                  child: Text("GEC PATH"),
                 ),
                 SizedBox(height: 20),
               ],

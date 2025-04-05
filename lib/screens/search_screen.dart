@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/firestore_services.dart';
 
 class SearchScreen extends StatefulWidget {
-  const SearchScreen({Key? key}) : super(key: key);
+  const SearchScreen({super.key});
 
   @override
   State<SearchScreen> createState() => _SearchScreenState();
