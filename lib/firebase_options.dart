@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBipznVd3DGqYUevVRhkD1WmlbDTjlJ-jQ',
+    apiKey: '',
     appId: '1:861523892918:web:f04772fe551c9d1a02a417',
     messagingSenderId: '861523892918',
     projectId: 'exam-hall-finder',
@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDwqvHXUERcODx-MB6wcUJppt2KHWvdGn8',
+    apiKey: '',
     appId: '1:861523892918:android:6e0cac5cdcd7f7e302a417',
     messagingSenderId: '861523892918',
     projectId: 'exam-hall-finder',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDreCua92KSCn-aUYcnHxYmxUJnGntaTWk',
+    apiKey: '',
     appId: '1:861523892918:ios:ae0bc3237bec8bb802a417',
     messagingSenderId: '861523892918',
     projectId: 'exam-hall-finder',
@@ -68,7 +68,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDreCua92KSCn-aUYcnHxYmxUJnGntaTWk',
+    apiKey: '',
     appId: '1:861523892918:ios:ae0bc3237bec8bb802a417',
     messagingSenderId: '861523892918',
     projectId: 'exam-hall-finder',
@@ -77,7 +77,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBipznVd3DGqYUevVRhkD1WmlbDTjlJ-jQ',
+    apiKey: '',
     appId: '1:861523892918:web:ffaacaaf62fb855402a417',
     messagingSenderId: '861523892918',
     projectId: 'exam-hall-finder',
